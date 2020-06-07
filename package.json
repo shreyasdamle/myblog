@@ -8,7 +8,8 @@
     "build": "tsc",
     "watch": "tsc -w",
     "test": "jest",
-    "cdk": "cdk"
+    "cdk": "cdk",
+    "hugo-deploy": "cd ./blog-contents && hugo && aws s3 cp public/ s3://shreyasblogcdkstack-bucket83908e77-1oku91e4mio7b --recursive && aws cloudfront create-invalidation --distribution-id EA4P8ZEU2U55A --paths '/*'"
   },
   "devDependencies": {
     "aws-cdk": "1.23.0",

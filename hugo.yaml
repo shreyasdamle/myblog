@@ -63,16 +63,20 @@ params:
   # comments: false
 
   profileMode:
-    buttons:
-      - name: Archives
-        url: archives
-      - name: Tags
-        url: tags
+    enabled: false
+    imageUrl: "images/profile.jpg" # optional
+    imageTitle: "profile" # optional
+    imageWidth: 15 # custom size
+    imageHeight: 15 # custom size
 
   homeInfoParams:
-    Title: "Hi there 👋"
+    Title: "👋 Hi there!"
     Content: >
-      I'm Shreyas!
+      <img src="/images/profile.jpg" alt="Profile Photo" width="280" height="200"><br><br>
+
+      
+      I'm Shreyas Damle! I'm a security engineer passionate about integrating AI and ML into the field of security. Here, I share my journey and insights as I explore and learn how to apply these technologies.
+      🤖 ➡️ 🛡️
 
   socialIcons:
     - name: LinkedIn

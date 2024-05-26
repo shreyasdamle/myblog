@@ -1,3 +1,0 @@
-{
-  "app": "npx ts-node bin/shreyas-blog-cdk.ts"
-}

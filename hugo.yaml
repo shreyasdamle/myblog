@@ -2,7 +2,7 @@ baseURL: https://shreyasdamle.com/
 languageCode: en-us
 title: "Shreyas Damle | Blog"
 paginate: 5
-theme: "PaperMod"
+theme: "hugo-PaperMod"
 
 enableInlineShortcodes: true
 enableRobotsTXT: true

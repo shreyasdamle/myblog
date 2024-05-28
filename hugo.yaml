@@ -99,9 +99,9 @@ outputs:
     
 
 
-  # analytics:
-  #     google:
-  #         SiteVerificationTag: "XYZabc"
+  analytics:
+      google:
+          SiteVerificationTag: "G-QCQ4JZFR67"
 
   assets:
     disableHLJS: true

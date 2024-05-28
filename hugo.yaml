@@ -89,22 +89,19 @@ params:
       title: View Source on Github
       url: "https://github.com/shreyasdamle"
 
-
-outputs:
-  home:
-    - HTML
-    - RSS
-    - JSON # necessary for search
-    
-    
-
-
   analytics:
       google:
           SiteVerificationTag: "G-QCQ4JZFR67"
 
   assets:
     disableHLJS: true
+
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
 
 markup:
   goldmark:

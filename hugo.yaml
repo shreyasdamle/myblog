@@ -13,6 +13,8 @@ enableEmoji: true
 pygmentsUseClasses: true
 mainsections: ["posts"]
 
+googleAnalytics: "G-QCQ4JZFR67"
+
 minify:
   disableXML: true
   # minifyOutput: true
